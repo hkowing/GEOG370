@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "marktwainhouse_polygon",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
-"features": [
-{ "type": "Feature", "properties": { "id": 2, "Structure": "Mark Twain House" }, "geometry": { "type": "Point", "coordinates": [ -8093085.747642559930682, 5126143.602984642609954 ] } }
-]
-}
