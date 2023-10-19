@@ -7,12 +7,26 @@
 </head>
 <body style="background-color:rgb(20, 48, 88)">
     <h1 style="color: rgb(166, 205, 222)">Homework 7</h1>
-    <h2 style="color:rgb(59, 137, 202); text-decoration:underline">Choropleth Map of Deaths Attributed to Fine Particulate Matter Pollution</h2>
-<a href="./images/nyc_airpollution.png">
+    <h2 style="color: rgb(166, 205, 222); text-decoration:underline">Choropleth Map of Deaths Attributed to Fine Particulate Matter Pollution</h2>
+<h4 style="color:rgb(59, 137, 202)">This map illustrates the number of deaths per 100 people over 30 in New York City 
+    caused by fine particule matter pollution. There have been numerous studies on the link between climate change-related illnesses 
+    and urban communities, which have always been interesting to me as I hope to study urban planning to make cities more equitable. 
+    When I found this data set, I knew that I could use it to explore how certain forms of pollution impact different areas of New York City, 
+    one of the most notoriously polluted metropoli in the United States.
+    </h4>
+
+    <h4 style="color:rgb(59, 137, 202)"> Although this is not census data, this data set is represented using census tracts as the vector polygons.
+        The raw Air Pollution CSV had a lot of information. I decided that I wanted to use R to wrangle and clean the data, 
+        which proved to be very efficient. Joining the tables was thus relatively seamless. 
+        To classify the data in QGIS, I used the Equal Interval classification method. To me, this seemed like it was the best way to 
+        visually distribute the data.
+    </h4>
+    <a href="./images/nyc_airpollution.png">
     <img src="./images/nyc_airpollution.png" alt="nycpoll" width='500px'>
     </a>
-<a href="./data/nyc_pollution4326.geojson"><h3 style="color:rgb(59, 137, 202)">GeoJSON File</h3></a>
-<a href= "https://github.com/nycehs/NYC_geography/tree/master/uhf42_shapefiles"><h3 style="color:rgb(59, 137, 202)">Source to CSV Data</h3></a>
-<a href="./data/nyc_pollution_cleaned.csv"><h3 style="color:rgb(59, 137, 202)">Clean CSV</h3></a>
+<a href="./data/nyc_pollution4326.geojson"><h3 style="color:rgb(59, 137, 202); text-decoration:underline">GeoJSON File</h3></a>
+<a href= "https://github.com/nycehs/NYC_geography/tree/master/uhf42_shapefiles"><h3 style="color:rgb(59, 137, 202); text-decoration:underline">Source to CSV Data</h3></a>
+<a href="./data/nyc_pollution_cleaned.csv"><h3 style="color:rgb(59, 137, 202); text-decoration:underline">Clean CSV</h3></a>
+<a href="./nyc_pollution.html"><h3 style="color:rgb(59, 137, 202); text-decoration:underline">Interactive Map</h3></a>
 </body>
 </html>
